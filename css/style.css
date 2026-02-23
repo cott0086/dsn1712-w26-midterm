@@ -10,17 +10,17 @@ body {
 a {
     text-align: center;
     margin-top: 40px;
-
+    
+    
 }
 
-a {
+a.home, a.essay, a.gallery {
     font-size: 14px;
     color: #c6a85b;
     text-transform: uppercase;
     margin-left: 20px;
     text-decoration: none;
     letter-spacing: 2px;
-    text-align: center;
 }
 
 a:hover {
@@ -55,10 +55,11 @@ h3 {
     margin-top: 40px;
     margin-bottom: 10px;
     letter-spacing: 2px;
+    font-weight: 500;
 }
 
-p.subtitle {
-    font-weight: normal;
+h3.subtitle {
+    text-align: center;
 }
 
 p {
@@ -68,15 +69,14 @@ p {
 
 blockquote {
     margin-top: 70px;
-    margin-bottom: 70px;
-}
-
-blockquote p {
+    margin-bottom: 70px; 
     font-size: 24px;
     color:#c6a85b;
     font-style: italic;
     text-align: center;
 }
+
+
 
 ul {
     margin-top: 20px;
@@ -94,6 +94,14 @@ section {
     padding-right: 60px;
 }
 
+footer {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    background-color: #000;
+}
 
 
 
