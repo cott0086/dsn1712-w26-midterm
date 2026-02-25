@@ -7,14 +7,14 @@ body {
 }
 
 
-a {
+nav {
     text-align: center;
     margin-top: 40px;
-    
-    
 }
 
-a.home, a.essay, a.gallery {
+a {
+     text-align: center;
+    margin-top: 40px;
     font-size: 14px;
     color: #c6a85b;
     text-transform: uppercase;
